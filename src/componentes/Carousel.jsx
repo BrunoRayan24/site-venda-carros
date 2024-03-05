@@ -5,7 +5,6 @@ import Image from 'next/image';
 
 const MyCarousel = () => {
   useEffect(() => {
-    // Initialize Bootstrap carousel when component mounts
     const bootstrap = require('bootstrap');
   }, []);
 

@@ -39,7 +39,7 @@ const OndeEstamos = () => {
       telefone: '(21) 1234-5678',
       horario: 'Segunda a Sexta: 8h às 18h',
       email: 'carservice@gmail.com',
-      imagem: '/loja1.jpg' // Caminho para a imagem da loja
+      imagem: '/loja1.jpg'
     },
     {
       nome: 'CarService São Paulo',
@@ -48,9 +48,8 @@ const OndeEstamos = () => {
       telefone: '(21) 9876-5432',
       horario: 'Segunda a Sexta: 9h às 19h',
       email: 'carservice@gmail.com',
-      imagem: '/loja2.jpg' // Caminho para a imagem da loja
+      imagem: '/loja2.jpg'
     },
-    // Adicione mais lojas conforme necessário
   ];
 
   const openModal = (index) => {

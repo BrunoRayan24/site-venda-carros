@@ -10,7 +10,7 @@ const Estoque = () => {
   const [marcaSelecionada, setMarcaSelecionada] = useState('nenhuma');
   const [anoSelecionado, setAnoSelecionado] = useState('');
   const [precoSelecionado, setPrecoSelecionado] = useState('');
-  const [isOpen, setIsOpen] = useState(false); // Alterado para false para iniciar fechado
+  const [isOpen, setIsOpen] = useState(false);
   const [carrosFiltrados, setCarrosFiltrados] = useState([]);
   const [modeloSelecionado, setModeloSelecionado] = useState('nenhum');
 
@@ -72,7 +72,6 @@ const Estoque = () => {
     { marca: 'Volvo', modelo: 'XC90', preco: '150.000', ano: 2020, cambio: 'Automático', imagem: '/volvo.jpg' },
     { marca: 'Saab', modelo: '9-3', preco: '80.000', ano: 2018, cambio: 'Manual', imagem: '/Saab.jpg'},
     { marca: 'Mercedes', modelo: 'E-Class', preco: '200.000', ano: 2021, cambio: 'Automático', imagem: '/Mercedes.jpg' },
-    // Adicione mais informações aqui conforme necessário
   ];
 
   return (
@@ -93,9 +92,9 @@ const Estoque = () => {
             </button>
             <motion.div
               className="bg-white p-4 rounded-md shadow-md"
-              initial={{ height: 0, opacity: 0, y: -10 }} // Modificado para iniciar ligeiramente acima
-              animate={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0, y: isOpen ? 0 : -10 }} // Modificado para ajustar a posição Y
-              transition={{ duration: 0.3 }} // Reduzido o tempo de duração para uma transição mais rápida
+              initial={{ height: 0, opacity: 0, y: -10 }}
+              animate={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0, y: isOpen ? 0 : -10 }}
+              transition={{ duration: 0.3 }}
             >
               <div className="mb-3">
                 <label htmlFor="marca" className="form-label">Marca:</label>

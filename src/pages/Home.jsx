@@ -1,5 +1,5 @@
 import React from 'react';
-import Rodape from '../componentes/Rodape'; // Importando o Rodape
+import Rodape from '../componentes/Rodape';
 import CarroInfo2 from '../componentes/CarroInfo2';
 import Carousel from '../componentes/TesteComponent';
 
@@ -42,7 +42,6 @@ const Home = () => {
     { marca: 'Volvo', modelo: 'XC90', preco: '150.000', ano: 2020, cambio: 'Automático', imagem: '/volvo.jpg' },
     { marca: 'Saab', modelo: '9-3', preco: '80.000', ano: 2018, cambio: 'Manual', imagem: '/Saab.jpg'},
     { marca: 'Mercedes', modelo: 'E-Class', preco: '200.000', ano: 2021, cambio: 'Automático', imagem: '/Mercedes.jpg' },
-    // Adicione mais informações aqui conforme necessário
   ];
 
   return (

@@ -11,7 +11,6 @@ const AddressCarousel = () => {
         {
           address: 'Rod. Washington Luíz, 1375 - Parque Duque, Duque de Caxias - RJ, 25085-008',
         },
-        // Adicione mais endereços conforme necessário
       ];
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import AddressCarousel from './CarouselEndereco'; // Importando o componente AddressCarousel
+import AddressCarousel from './CarouselEndereco';
 import { useRouter } from 'next/router';
 
 const Rodape = () => {
