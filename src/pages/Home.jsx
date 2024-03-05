@@ -50,7 +50,7 @@ const Home = () => {
     <div className="bg-sky-100 pt-12">
       <div className="text-center font-normal">
         <h1 className="text-5xl">CONHEÇA NOSSAS VANTAGENS</h1>
-        <p className="text-2xl">Negocie com a Lions e tenha benefícios exclusivos</p>
+        <p className="text-2xl">Negocie com a CarService e tenha benefícios exclusivos</p>
       </div>
 
       {/* Retângulos com informações */}
