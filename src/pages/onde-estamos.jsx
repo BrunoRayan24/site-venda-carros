@@ -64,7 +64,7 @@ const OndeEstamos = () => {
   return (
     <>
       <MyNavbar />
-      <Image src="/estamos.jpg" alt="Logo" width={1920} height={150} className="w-full" />
+      <Image src="/estamos.jpg" alt="Logo" width={1280} height={150} className="w-full" />
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {lojas.map((loja, index) => (

@@ -7,7 +7,7 @@ const SobreNos = () => {
   return (
     <>
       <MyNavbar />
-      <Image src="/sobre.jpg" alt="Logo" width={1920} height={150} />
+      <Image src="/sobre.jpg" alt="Logo" width={1920} height={150} className="w-full" />
       <div className="flex justify-center items-center ">
         <div className="p-6 rounded-lg  max-w-4xl text-justify">
           <h2 className="text-2xl text-center font-bold mb-4">Sobre Nós</h2>

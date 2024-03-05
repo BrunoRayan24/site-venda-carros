@@ -52,7 +52,6 @@ const Home = () => {
         <p className="text-2xl">Negocie com a CarService e tenha benefícios exclusivos</p>
       </div>
 
-      {/* Retângulos com informações */}
       <div className="flex flex-col md:flex-row md:justify-center items-center mt-8">
         <div className="bg-white pt-4 m-4 rounded-lg w-72 h-96">
           <p className="font-medium text-2xl mx-4 text-center text-cyan-500">FIQUE DESPREOCUPADO</p>
@@ -73,10 +72,8 @@ const Home = () => {
       </div>
       </div>
 
-      <Image src="/propaganda3.jpg" alt="Logo" width={1920} height={400} />
+      <Image src="/propaganda3.jpg" alt="Logo" width={1920} height={400} className='w-full' />
 
-
-      {/* Renderizando as informações dos carros */}
 
       <div className="bg-sky-100 text-center pt-12 font-normal">
         <h1 className="text-5xl">NOSSAS OFERTAS</h1>
@@ -130,21 +127,18 @@ const Home = () => {
 
     <div className="container mx-auto mt-10">
       <div className="grid grid-cols-1 ">
-        {/* Nome */}
         <input
           type="text"
           placeholder="Nome"
           className="border border-gray-400 p-1 w-64 "
         />
 
-        {/* Email */}
         <input
           type="email"
           placeholder="Email"
           className="border border-gray-400 p-1 w-64 "
         />
 
-        {/* Telefone */}
         <div className="flex">
           <input
             type="text"
@@ -160,7 +154,6 @@ const Home = () => {
           />
         </div>
 
-        {/* Loja mais próxima */}
         <select
           id="store"
           className="border border-gray-400 p-1 w-64 "

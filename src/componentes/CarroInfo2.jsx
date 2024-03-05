@@ -10,7 +10,7 @@ const CarroInfo2 = ({ marca, modelo, preco, ano, imagem }) => {
       </div>
       <div className="ml-10 mr-10 text-center">
         <h2 className="pt-2 font-bold text-lg">{marca} <span className="font-bold">{modelo}</span></h2>
-        <div className="flex justify-center items-center"> {/* Adicionei items-center para centralizar os ícones verticalmente */}
+        <div className="flex justify-center items-center">
           <p className="font-semibold mr-4">
             <FontAwesomeIcon icon={faMoneyBillAlt} className="mr-1" /> R$ {preco}
           </p>
