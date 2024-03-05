@@ -1,0 +1,11 @@
+
+.navLink {
+  font-size: 18px;
+  color: white;
+  margin: 0 15px;
+  transition: transform 0.2s;
+}
+
+.navLink:hover {
+  transform: scale(1.1);
+}
